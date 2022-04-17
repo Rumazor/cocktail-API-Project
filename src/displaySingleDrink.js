@@ -28,7 +28,7 @@ const displayDrink = (data) =>{
     const ingredients = getElement('.drink-ingredients');
     ingredients.innerHTML = list.map((item)=>{
         if(!item) return;
-        return `<li><i class="far fa-check-square">${item}</i></li>`
+        return `<li><i class="fas fa-check" style="color:#49a6e9; font-size:14px " ></i> ${item}</li>`
     }).join('');
 
 
